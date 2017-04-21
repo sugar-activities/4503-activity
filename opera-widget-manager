@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "widgetmanager ejecutado"
+exec /home/olpc/resp/OperaJAM.activity/lib/opera --widgetmanager "$@"

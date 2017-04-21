@@ -1,0 +1,452 @@
+########## DEFINITIONS ##########
+definitions:
+  widgets:
+    DoNotShowAgainCheckBox: &DoNotShowAgainCheckBox
+      type: CheckBox
+      name: checkbox_Default
+      string: S_DO_NOT_SHOW_DIALOG_AGAIN
+
+  buttons:
+    # Ok button, typically used in a button strip using *OkButton
+    OkButton: &OkButton
+      type: Button
+      name: button_OK
+      string: DI_ID_OK
+      action-string: Ok
+      default: true
+
+    # Close button, typically used in a button strip using *CloseButton
+    CloseButton: &CloseButton
+      type: Button
+      name: button_Close
+      string: DI_IDBTN_CLOSE
+      action-string: Ok
+      default: true
+
+    # Cancel button, typically used in a button strip using *CancelButton
+    CancelButton: &CancelButton
+      type: Button
+      name: button_Cancel
+      string: DI_ID_CANCEL
+      action-string: Cancel
+
+    # Back button, typically used in a wizard button strip using *CancelButton
+    BackButton: &BackButton
+      type: Button
+      name: button_Previous
+      string: S_WIZARD_PREV_PAGE
+      action-string: Back
+
+    # Back button, typically used in a wizard button strip using *CancelButton
+    ForwardButton: &ForwardButton
+      type: Button
+      name: button_Next
+      string: S_WIZARD_NEXT_PAGE
+      action-string: Forward
+
+    # Help button, typically used in a button strip using *HelpButton
+    HelpButton: &HelpButton
+      type: Button
+      name: button_Help
+      string: DI_IDHELP
+      action-string: Show help
+
+  button-strips:
+    # this is how button strips usually look:
+    GenericButtonStrip: &GenericButtonStrip
+      type: ButtonStrip
+      name: button-strip
+      help_anchor: index.html
+      dynamic_help_anchor: false
+      #special-content:
+      #buttons:
+
+    # a button strip that shows an 'Ok' and a 'Cancel' button. To be used like this:
+    # button-strip:
+    #   <<: *OkCancelButtonStrip
+    OkCancelButtonStrip: &OkCancelButtonStrip
+      <<: *GenericButtonStrip
+      buttons:
+        - *OkButton
+        - *CancelButton
+
+    # a button strip that shows 'Ok', 'Cancel' and 'Help' button. Typically used like this:
+    # button-strip:
+    #   <<: *OkCancelHelpButtonStrip
+    #   help_anchor: index.html
+    #
+    OkCancelHelpButtonStrip: &OkCancelHelpButtonStrip
+      <<: *GenericButtonStrip
+      buttons:
+        - *OkButton
+        - *CancelButton
+        - *HelpButton
+
+    # a button strip that shows 'Close' and 'Help' button. Typically used like this:
+    # button-strip:
+    #   <<: *CloseHelpButtonStrip
+    #   help_anchor: index.html
+    #
+    CloseHelpButtonStrip: &CloseHelpButtonStrip
+      <<: *GenericButtonStrip
+      buttons:
+        - *CloseButton
+        - *HelpButton
+
+    # The typical button strip for wizards. Typically used like this:
+    # button-strip:
+    #   <<: *WizardButtonStrip
+    #   help_anchor: index.html
+    WizardButtonStrip: &WizardButtonStrip
+      <<: *GenericButtonStrip
+      buttons:
+        - *BackButton
+        - *ForwardButton
+        - *CancelButton
+        - *HelpButton
+
+
+########## DIALOGS ##########
+dialogs:
+  - type: Dialog
+    name: Java Setup Dialog
+    title: D_NEW_PREFS_JAVA
+    content:                  # there is always only going to be one top-level widget, no?
+      type: StackLayout
+      elements:
+        - type: Label
+          name: label_for_Java_chooser
+          string: D_PREFERENCES_JAVA_PATH
+        - type: FolderChooser
+          name: Java_chooser
+        - type: Button
+          name: Validate_Java_button
+          string: D_PREFERENCES_VALIDATE_JAVA_PATH
+          action-string: Validate java path
+    button-strip:
+      <<: *OkCancelHelpButtonStrip
+      help_anchor: content.html#java
+  - type: Dialog
+    name: Label Properties Dialog
+    title: S_MY_FOLDERS
+    content:
+      type: StackLayout
+      orientation: horizontal
+      elements:
+        - type: StackLayout
+          orientation: vertical
+          name: LabelSelector
+          elements:
+            - type: Treeview
+              name: LabelTreeView
+              minimum-width: 25c
+              minimum-height: 10c
+            - type: Button
+              name: AddButton
+              string: M_INDEX_ITEM_POPUP_MENU_NEW_FILTER
+              action-string: "New folder"
+              preferred-width: fill
+            - type: Button
+              name: RemoveButton
+              string: D_MAIL_REMOVE_LABEL
+              action-string: "Remove folder"
+              preferred-width: fill
+
+        - type: StackLayout
+          orientation: vertical
+          name: MainView
+          elements:
+            - type: StackLayout
+              orientation: horizontal
+              elements:
+                - type: Label
+                  string: D_MAIL_LABEL_NAME
+                - type: Edit
+                  name: LabelName
+                - type: Label
+                  string: D_MAIL_LABEL_ICON
+                - type: Button
+                  name: IconButton
+                  action:
+                    name: "Show Popup Menu"
+                    data_string: "Label Image Menu"
+
+            - type: Tabs
+              minimum-width: 600
+              preferred-width: fill
+              preferred-height: fill
+              elements:
+                - title: D_MAIL_INDEX_PROPERTIES_RULES
+                  type: StackLayout
+                  orientation: vertical
+                  elements:
+                    - type: ScrollContainer
+                      preferred-height: infinity
+                      preferred-width: infinity
+                      content:
+                        type: StackLayout
+                        orientation: vertical
+                        elements:
+                          - type: StackLayout
+                            orientation: horizontal
+                            name: SpamInternalFilter
+                            elements:
+                              - type: Label
+                                string: D_M2_ACCOUNT_PROPERTIES_INTERN_FILTER
+                              - type: Dropdown
+                                name: SpamInternalFilterLevel
+                                elements:
+                                  - string: S_FILTER_OFF
+                                    data: 1000
+                                  - string: S_FILTER_MEDIUM
+                                    data: 30
+                                  - string: S_FILTER_STRONG
+                                    data: 0
+                          - type: StackLayout
+                            orientation: horizontal
+                            name: SearchInMailbox
+                            elements:
+                              - type: Label
+                                string: D_MAIL_MATCH_MESSAGES_IN
+                              - type: Button
+                                string: DI_IDSTR_M2_COL_MYMAIL
+                                name: SearchInMailboxButton
+                                action:
+                                  name: "Show Popup Menu"
+                                  data_string: "Internal Mail Search In"
+                          - type: DynamicGridLayout
+                            name: RulesGrid
+                            template:
+                              - type: Dropdown
+                                name: Operator
+                                elements:
+                                  - string: S_FILTER_OR
+                                    data: 0
+                                  - string: S_FILTER_AND
+                                    data: 1
+                              - type: Dropdown
+                                name: Field
+                                elements:
+                                  - string: S_FILTER_SUBJECT
+                                    data: 2
+                                  - string: S_FILTER_FROM_HEADER
+                                    data: 6
+                                  - string: S_FILTER_TO_HEADER
+                                    data: 7
+                                  - string: S_FILTER_CC_HEADER
+                                    data: 8
+                                  - string: S_FILTER_REPLYTO_HEADER
+                                    data: 9
+                                  - string: S_FILTER_NEWSGROUPS_HEADER
+                                    data: 10
+                                  - string: S_FILTER_ANY_HEADER
+                                    data: 3
+                                  - string: S_FILTER_BODY
+                                    data: 11
+                                  - string: S_FILTER_ENTIRE_MESSAGE
+                                    data: 4
+                              - type: Dropdown
+                                name: MatchType
+                                elements:
+                                  - string: S_FILTER_CONTAINS
+                                    data: 0
+                                  - string: S_FILTER_DOES_NOT_CONTAIN
+                                    data: 3
+                                  - string: S_FILTER_MATCHES_REGEXP
+                                    data: 2
+                              - type: Edit
+                                name: Match
+                                minimum-width: 8c
+                              - type: Button
+                                name: RemoveRuleButton
+                                string: D_MAIL_LABEL_REMOVE_RULE
+                                action-string: "Remove filter"
+                          - type: Button
+                            name: AddRuleButton
+                            string: D_MAIL_FILTER_ADD_RULE
+                            action-string: "New filter"
+
+                - title: D_MAIL_LABEL_OPTIONS
+                  type: StackLayout
+                  orientation: vertical
+                  elements:
+                    - type: Checkbox
+                      name: HideFromOtherViews
+                      string: D_MAIL_INDEX_PROPERTIES_MARK_AS_FILTERED
+                    - type: Checkbox
+                      name: MarkAsRead
+                      string: D_M2_ACCOUNT_PROPERTIES_MARK_MATCH_READ
+                    - type: Checkbox
+                      name: LearnFromMessages
+                      string: D_MAIL_INDEX_PROPERTIES_LEARN_FROM_MESSAGES_ADDED
+                    - type: Checkbox
+                      name: NewMessagesOnly
+                      string: D_MAIL_LABEL_APPLY_RULES_ONLY_TO_NEW
+
+                - title: D_MAIL_LABEL_IMAP_OPTIONS
+                  type: GridLayout
+                  elements:
+                    - elements: 
+                        - type: Label
+                          string: D_MAIL_LABEL_IMAP_SYNCHRONIZATION_KEYWORD
+                        - type: Edit
+                          name: IMAPKeyword
+
+    button-strip:
+      <<: *CloseHelpButtonStrip
+
+  - &PageSuggestionComposite
+    type: Composite
+    skin-image: Speed Dial Configuration Dialog Page Button
+
+  - &PageSuggestionStack
+    type: StackLayout
+    hcenter: true
+
+  - &PageSuggestionButton
+    type: Button
+    action-string: Go to typed address + Ok
+    fixed-width: 150
+    fixed-height: 96
+    bottom-margin: 0
+    skin-foreground-image: Thumbnail Busy Image
+
+  - &PageSuggestionName
+    type: Button
+    fixed-width: 150
+    top-margin: 0
+
+  - &ExtensionSuggestionComposite
+    type: Composite
+    skin-image: Speed Dial Configuration Dialog Extension Button
+
+  - &ExtensionSuggestionStack
+    <<: *PageSuggestionStack
+
+  - &ExtensionSuggestionButton
+    <<: *PageSuggestionButton
+    action-string: Install Speed Dial extension + Ok
+    skin-foreground-image: Extensions 64 Gray
+
+  - &ExtensionSuggestionName
+    <<: *PageSuggestionName
+
+  - type: Dialog
+    name: Speed Dial Configuration Dialog
+    scrolled-content: false
+    content:
+      type: StackLayout
+      elements:
+        - type: GridLayout
+          elements:
+            - elements:
+              - type: Label
+                string: D_SD_LABEL_URL
+              - type: Address
+                name: address_inputbox
+                ghost-string: S_ENTER_WEB_ADDRESS_HERE
+        - type: Label
+          string: S_SEARCH_FIELD_SUGGESTIONS
+          top-margin: 24
+          name: Suggestions
+        - type: SkinElement
+          skin-image: Speed Dial Configuration Dialog Suggestions
+          content:
+            type: GridLayout
+            elements:
+              - elements:
+                - <<: *PageSuggestionComposite
+                  name: Page0
+                  content:
+                    <<: *PageSuggestionStack
+                    elements:
+                      - <<: *PageSuggestionButton
+                        name: PageButton0
+                      - <<: *PageSuggestionName
+                        name: PageName0
+                - <<: *PageSuggestionComposite
+                  name: Page1
+                  content:
+                    <<: *PageSuggestionStack
+                    elements:
+                      - <<: *PageSuggestionButton
+                        name: PageButton1
+                      - <<: *PageSuggestionName
+                        name: PageName1
+                - <<: *PageSuggestionComposite
+                  name: Page2
+                  content:
+                    <<: *PageSuggestionStack
+                    elements:
+                      - <<: *PageSuggestionButton
+                        name: PageButton2
+                      - <<: *PageSuggestionName
+                        name: PageName2
+              - elements:
+                - <<: *ExtensionSuggestionComposite
+                  name: Extension0
+                  content:
+                    <<: *ExtensionSuggestionStack
+                    elements:
+                      - <<: *ExtensionSuggestionButton
+                        name: ExtensionButton0
+                      - <<: *ExtensionSuggestionName
+                        name: ExtensionName0
+                - <<: *ExtensionSuggestionComposite
+                  name: Extension1
+                  content:
+                    <<: *ExtensionSuggestionStack
+                    elements:
+                      - <<: *ExtensionSuggestionButton
+                        name: ExtensionButton1
+                      - <<: *ExtensionSuggestionName
+                        name: ExtensionName1
+                - <<: *ExtensionSuggestionComposite
+                  name: Extension2
+                  content:
+                    <<: *ExtensionSuggestionStack
+                    elements:
+                      - <<: *ExtensionSuggestionButton
+                        name: ExtensionButton2
+                      - <<: *ExtensionSuggestionName
+                        name: ExtensionName2
+    button-strip:
+      <<: *OkCancelButtonStrip
+      special-content:
+        type: Button
+        name: ViewAllExtensions
+        string: D_EXTENSION_PANEL_GET_MORE
+        action:
+          name: "Open url in new page"
+          data_string: "https://addons.opera.com/redirect/speeddial-extensions/"
+
+  - type: Dialog
+    name: Speed Dial Edit Dialog
+    content:
+      type: StackLayout
+      elements:
+        - type: GridLayout
+          elements:
+            - elements:
+              - type: Label
+                string: D_SD_LABEL_URL
+              - type: Address
+                name: address_inputbox
+                minimum-width: 300
+                ghost-string: S_ENTER_WEB_ADDRESS_HERE
+            - elements:
+              - type: Label
+                string: D_SD_LABEL_TITLE
+              - type: Edit
+                name: edit_title
+                ghost-string: D_SD_DEFAULT_TITLE
+    button-strip:
+      <<: *OkCancelButtonStrip
+  - type: Dialog
+    name: Extension Preferences Dialog
+    scrolled-content: false
+    content:
+      type: Browser
+      name: preferences_view
+      nominal-width: 480
+      nominal-height: 360

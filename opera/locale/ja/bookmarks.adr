@@ -1,0 +1,884 @@
+Opera Hotlist version 2.0
+Options: encoding = utf8, version=3
+
+#FOLDER
+	ID=25
+	NAME=--Opera Software--
+	PARTNERID=opera-operafolder
+	EXPANDED=YES
+	UNIQUEID=0CECF1F446554A288A02538C4E233490
+
+#URL
+	ID=26
+	NAME=Opera 日本語サイト
+	URL=http://www.opera.com/?language=ja
+	UNIQUEID=4ABF6FE5A3904F78A3D14C9E1AD41611
+	PARTNERID=opera-homepage
+
+#URL
+	ID=27
+	NAME=Opera ダウンロード
+	URL=http://www.opera.com/download/
+	UNIQUEID=E683A14E62D34C8391F9869747D235B3
+	PARTNERID=opera-operadownload
+
+#URL
+	ID=28
+	NAME=Opera サポートデスク
+	URL=http://www.opera.com/support/
+	UNIQUEID=27C1023A8F1C438D865E965A183E33C4
+	PARTNERID=opera-operasupport
+
+#URL
+	ID=29
+	NAME=My Opera コミュニティ
+	URL=http://my.opera.com/
+	UNIQUEID=579030BC6A6E4C5FA86573AA7AFB2498
+	PARTNERID=opera-operasocial
+
+#URL
+	ID=30
+	NAME=Opera Web Mail
+	URL=http://www.operamail.com/
+	UNIQUEID=007E323E03874FF7BC156C2E901805B3
+	PARTNERID=opera-operamail
+
+#URL
+	ID=31
+	NAME=Get started with Opera
+	URL=http://www.opera.com/portal/startup/
+	UNIQUEID=18CD2A92CCF9453A98D3C2B85ADE90F2
+	PARTNERID=opera-operastart
+
+#URL
+	ID=32
+	NAME=Opera Portal
+	URL=http://portal.opera.com/
+	UNIQUEID=93D5337B1657409084924E007F49387C
+	PARTNERID=opera-operaportal
+
+-
+
+#FOLDER
+	ID=33
+	NAME=ポータル
+	UNIQUEID=8AA1F70AD359DD408D5DE7793A036DE6
+
+#URL
+	ID=34
+	NAME=Yahoo! JAPAN
+	URL=http://www.yahoo.co.jp/
+	UNIQUEID=00DAD01584314141845DE3C54E0245DC
+
+#URL
+	ID=35
+	NAME=Google
+	URL=http://www.google.co.jp/
+	UNIQUEID=4449597179A2074A85B909BAB6B7F9F1
+
+#URL
+	ID=36
+	NAME=goo
+	URL=http://www.goo.ne.jp/
+	UNIQUEID=EC2668127EFC344498CFD01E09796F46
+
+#URL
+	ID=37
+	NAME=Infoseek
+	URL=http://www.infoseek.co.jp/
+	UNIQUEID=14FC699A933422459563A13DC5FDC5ED
+
+-
+
+#FOLDER
+	ID=38
+	NAME=IT ニュース
+	UNIQUEID=BCCD4BDFE2B59B49B20A32A226EF2DC0
+
+#URL
+	ID=39
+	NAME=窓の杜
+	URL=http://www.forest.impress.co.jp/
+	UNIQUEID=365A97C4DC45E24BA6DC880E81E0342F
+
+#URL
+	ID=40
+	NAME=マイコミジャーナル
+	URL=http://journal.mycom.co.jp/
+	UNIQUEID=EEAE8F6F09091A42A7B3B9D57AF8072F
+
+#URL
+	ID=41
+	NAME=ITpro 総合トップ
+	URL=http://itpro.nikkeibp.co.jp/index.html
+	UNIQUEID=7C133678B6DDD74CAFC4A246C11585BA
+
+#URL
+	ID=42
+	NAME=CNET Japan
+	URL=http://japan.cnet.com/
+	UNIQUEID=70B0824A8F2FE549BEF4C3A5066F0EE7
+
+#URL
+	ID=43
+	NAME=IT総合情報ポータル「ITmedia」
+	URL=http://www.itmedia.co.jp/
+	UNIQUEID=B00A066EB3D7AC478F5BA988CDAF8D5A
+
+#URL
+	ID=44
+	NAME=ASCII.jp
+	URL=http://ascii.jp/
+	UNIQUEID=DD0E3E3C35CD854E89C69E398C66F33D
+
+#URL
+	ID=45
+	NAME=nikkei BPnet 〈日経BPネット〉
+	URL=http://www.nikkeibp.co.jp/
+	UNIQUEID=AF1CD2AE491A1F46A3CF0FE55045FEA7
+
+-
+
+#FOLDER
+	ID=46
+	NAME=一般ニュース
+	UNIQUEID=2803BA89358E78478530B912B6E4A627
+
+#URL
+	ID=47
+	NAME=YOMIURI ONLINE（読売新聞）
+	URL=http://www.yomiuri.co.jp/
+	UNIQUEID=30927AF479EFB14092827F7312E9668D
+
+#URL
+	ID=48
+	NAME=asahi.com：朝日新聞社
+	URL=http://www.asahi.com/
+	UNIQUEID=04E156C414591F43A89758DEF025322B
+
+#URL
+	ID=49
+	NAME=日本経済新聞
+	URL=http://www.nikkei.com/
+	UNIQUEID=5443B66D2FC7554CB16389DDC081CEBD
+
+#URL
+	ID=50
+	NAME=The New York Times
+	URL=http://www.nytimes.com/
+	UNIQUEID=1E3B84D5C79E9B4E9C238FFAE760229D
+
+#URL
+	ID=51
+	NAME=The Washington Post
+	URL=http://www.washingtonpost.com/
+	UNIQUEID=EF0D511B1943A34BA26A707D318C93C9
+
+#URL
+	ID=52
+	NAME=CNN.com
+	URL=http://www.cnn.com/
+	UNIQUEID=DCDC45B57C002E448B13AFCD9679857B
+
+#URL
+	ID=53
+	NAME=SANSPO.COM
+	URL=http://www.sanspo.com/
+	UNIQUEID=907CBB149492F84B8350C1C57814832E
+
+#URL
+	ID=54
+	NAME=スポニチ Sponichi Annex
+	URL=http://www.sponichi.co.jp/
+	UNIQUEID=CD51BDB118DDF14D8E9D8AACE28239FA
+
+-
+
+#FOLDER
+	ID=55
+	NAME=SNS・ブログ
+	UNIQUEID=D09DF22C587FE14284A863EDA6B228D1
+
+#URL
+	ID=56
+	NAME=ライブドアブログ(livedoor Blog)
+	URL=http://blog.livedoor.com/
+	UNIQUEID=0BE296E74BCEAA4A952D409A622D2172
+
+#URL
+	ID=57
+	NAME=Ameba (アメーバ)
+	URL=http://ameblo.jp/
+	UNIQUEID=FB59C2FBDC1E354A92E6D4719B6351F5
+
+#URL
+	ID=58
+	NAME=GREE
+	URL=http://gree.jp/
+	UNIQUEID=EEEEE9A3F1E4E84AA8359BF5D6CAB00F
+
+#URL
+	ID=59
+	NAME=mixi(ミクシィ)
+	URL=http://mixi.jp/
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=0
+	UNIQUEID=C2CE28898B952B43AB0252B472D3FAF5
+
+#URL
+	ID=60
+	NAME=Facebook
+	URL=http://www.facebook.com/
+	UNIQUEID=8797031CF3CDC2408F765BC429C2C0E2
+
+#URL
+	ID=61
+	NAME=Twitter
+	URL=http://twitter.com/
+	UNIQUEID=4D0F22CB33F9A046ABCFE439DD10C51D
+
+-
+
+#FOLDER
+	ID=62
+	NAME=画像・動画共有
+	UNIQUEID=F0914C6AEC492C45936CCE976BBEB827
+
+#URL
+	ID=63
+	NAME=YouTube
+	URL=http://www.youtube.com/
+	UNIQUEID=41605A13D433E149A6343C2A2372AD06
+
+#URL
+	ID=64
+	NAME=Ustream.tv
+	URL=http://www.ustream.tv/
+	UNIQUEID=6D2E562EE1871F47BD19AFF22357464C
+
+#URL
+	ID=65
+	NAME=ニコニコ動画
+	URL=http://www.nicovideo.jp/
+	UNIQUEID=85CBA454A96BA840945B0B4EF3F54C8A
+
+#URL
+	ID=66
+	NAME=デイリーモーション
+	URL=http://www.dailymotion.com/jp
+	UNIQUEID=E06FFA3B0B77884A8BEC85B89255E56F
+
+#URL
+	ID=67
+	NAME=flicker
+	URL=http://www.flickr.com/
+	UNIQUEID=6C82A358BDBF9C429A16A521DEAB9777
+
+#URL
+	ID=68
+	NAME=Picasa ウェブ アルバム
+	URL=http://picasaweb.google.com/home?hl=ja
+	UNIQUEID=943EB7EE3C4C214A8F3303CE6B515B2F
+
+#URL
+	ID=69
+	NAME=写真共有サイト「フォト蔵」
+	URL=http://photozou.jp/
+	UNIQUEID=B2E366A2620A7748BFCC924FA85A5B65
+
+-
+
+#FOLDER
+	ID=70
+	NAME=ライフ
+	UNIQUEID=D3AA4EBE90213945AF355391043BBE85
+
+#URL
+	ID=71
+	NAME=All About（オールアバウト）
+	URL=http://allabout.co.jp/
+	UNIQUEID=8F4D8803C4AC9A49B501F578E012CB55
+
+#URL
+	ID=72
+	NAME=ウェザーニュース
+	URL=http://weathernews.jp/
+	UNIQUEID=D2ABC22BCBF82B489F58FE9F055A3DCE
+
+#URL
+	ID=73
+	NAME=地震情報 - Yahoo!天気情報
+	URL=http://typhoon.yahoo.co.jp/weather/jp/earthquake/
+	UNIQUEID=6FC674B0E29D5D4D87C736024D95435B
+
+#URL
+	ID=74
+	NAME=教えて！goo
+	URL=http://oshiete.goo.ne.jp/
+	UNIQUEID=0B6DAAFB5781D442ACD7DBC7BE68CA00
+
+#URL
+	ID=75
+	NAME=OKWave
+	URL=http://okwave.jp/
+	UNIQUEID=8C80531EF6B54341A0E4C43CF2851DBE
+
+#URL
+	ID=76
+	NAME=carview（カービュー）
+	URL=http://www.carview.co.jp/
+	UNIQUEID=5BD67762C80CCC408007C1D04F90DEEF
+
+#URL
+	ID=77
+	NAME=クックパッド
+	URL=http://cookpad.com/
+	UNIQUEID=28EBA8447519EC489CD66A22BF25EB0F
+
+#URL
+	ID=78
+	NAME=食べログ
+	URL=http://tabelog.com/
+	UNIQUEID=FFA0C7FB2E4DEC4ABD752938DF379CBC
+
+#URL
+	ID=79
+	NAME=ぐるなび
+	URL=http://www.gnavi.co.jp/
+	UNIQUEID=410F95EF35E10F4DACBA43BCAA7A7A0D
+
+#URL
+	ID=80
+	NAME=【OZmall】
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166150
+	UNIQUEID=756ED33DE08592479301E90E9C7BA93C
+
+-
+
+#FOLDER
+	ID=81
+	NAME=トラベル
+	UNIQUEID=346EDFA441B08F44A5AE5E33F6C6BC78
+
+#URL
+	ID=82
+	NAME=ジョルダン
+	URL=http://www.jorudan.co.jp/
+	UNIQUEID=9CB09CA43B3E0B49B793AAF753F75A27
+
+#URL
+	ID=83
+	NAME=えきねっと（JR東日本）
+	URL=http://jreast.eki-net.com/
+	UNIQUEID=5092912E37DBC345A45B2E365184FDE4
+
+#URL
+	ID=84
+	NAME=JAL
+	URL=http://www.jal.co.jp/
+	UNIQUEID=85FD1BC81BED914DA0AABB7E8E2A481B
+
+#URL
+	ID=85
+	NAME=ANA
+	URL=http://www.ana.co.jp/
+	UNIQUEID=C73748B0104F7C4FA92E8895C8444FE5
+
+#URL
+	ID=86
+	NAME=スカイゲート
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166053
+	UNIQUEID=4AEC82DE4730F848979ADAA62B10036D
+	PARTNERID=opera-travel
+
+#URL
+	ID=87
+	NAME=H.I.S.海外旅行　(航空券・ツアー情報)
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166067
+	UNIQUEID=42E0630B954180418DB370725187E754
+	PARTNERID=opera-travel2
+	
+#URL
+	ID=88
+	NAME=【JTB】国内旅行
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880235749
+	UNIQUEID=7623E2223D97A84D92BBF9D74CA1BE28
+	PARTNERID=opera-travel3
+
+#URL
+	ID=89
+	NAME=じゃらんnet
+	URL=http://redir.opera.com/valuecommerce/?id=2
+	UNIQUEID=5C02EBD1A24B2F43831D6C6D9D81E97B
+	PARTNERID=opera-travel4
+
+#URL
+	ID=90
+	NAME=楽天トラベル
+	URL=http://pt.afl.rakuten.co.jp/c/0a5b732f.d379d233/?url=http%3a%2f%2ftravel.rakuten.co.jp%2f
+	UNIQUEID=5EE23685664A0C4484EC6099113B02FD
+	PARTNERID=opera-travel5
+
+#URL
+	ID=91
+	NAME=Yahoo!トラベル
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166075
+	UNIQUEID=A54A98DA860D22408ECF055624CAAFD1
+	PARTNERID=opera-travel6
+
+#URL
+	ID=92
+	NAME=一休.com
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166047
+	UNIQUEID=BC2C976F60DB4541BB578D28D46D979B
+	PARTNERID=opera-travel7
+	
+#URL
+	ID=93
+	NAME=Expedia
+	URL=http://redir.opera.com/bookmarks/expedia
+	ICONFILE=http://redir.opera.com/favicons/expedia/favicon.ico
+	DESCRIPTION=travel, cheap, flights, hotels, holidays
+	UNIQUEID=1EFCF68AF7804103B23D78669B160008
+	PARTNERID=opera-travel8
+
+-
+
+#FOLDER
+	ID=94
+	NAME=ファッション
+	UNIQUEID=82A664D84FE1BC4E9CA991A43429AB0D
+
+#URL
+	ID=95
+	NAME=ZOZOTOWN
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166653
+	UNIQUEID=F6E7A0516824D7458B2AEEA8A37F171F
+	PARTNERID=opera-webshop
+
+#URL
+	ID=96
+	NAME=＠ｃｏｓｍｅ（アットコスメ）
+	URL=http://www.cosme.net/
+	UNIQUEID=07B2897939997F4D8F91150645A42C4E
+
+#URL
+	ID=97
+	NAME=イマージュネット
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166659
+	UNIQUEID=B387F0C16ECD444A882233151AA4F5FA
+	PARTNERID=opera-webshop2
+
+#URL
+	ID=98
+	NAME=ベルーナ
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166700
+	UNIQUEID=B506638910B7264AA2B5DCAC924C9A0F
+	PARTNERID=opera-webshop3
+
+#URL
+	ID=99
+	NAME=セレクトスクエア
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166763
+	UNIQUEID=3530CE2C234DE2419E94DF0B8593B4AA
+	PARTNERID=opera-webshop4
+
+#URL
+	ID=100
+	NAME=TOKYOlife（東京ライフ）
+	URL=http://www.tokyolife.co.jp/index.html
+	UNIQUEID=86EC46CE8CB25E4188128F53215CC3D8
+
+#URL
+	ID=101
+	NAME=ABC-MART.net
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166683
+	UNIQUEID=E48F71574E3F7043B5E5BD3A2ABB0D8E
+	PARTNERID=opera-webshop5
+
+#URL
+	ID=102
+	NAME=高島屋オンラインストア
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166707
+	UNIQUEID=E003527B3C94B4489D0D079ED6F75C2D
+	PARTNERID=opera-webshop6
+
+-
+
+#FOLDER
+	ID=103
+	NAME=ビジネス・リサーチ
+	UNIQUEID=A75137AA281E484183075F019C9FB095
+
+#URL
+	ID=104
+	NAME=Wikipedia
+	URL=http://ja.wikipedia.org/wiki/メインページ
+	UNIQUEID=C712AB8864173141910476525D37D6C9
+
+#URL
+	ID=105
+	NAME=統計局ホームページ
+	URL=http://www.stat.go.jp/
+	UNIQUEID=6A4B2909F1A61D44930B473E8190F536
+
+#URL
+	ID=106
+	NAME=国立国会図書館-National Diet Library
+	URL=http://www.ndl.go.jp/
+	UNIQUEID=E4BABB30687F174487A79670C3607B7E
+
+#URL
+	ID=107
+	NAME=日経goo
+	URL=http://nikkei.goo.ne.jp/nkg/nkg_top.jsp
+	UNIQUEID=312907A0C14A9C4AB1453EEDA53F6D2F
+
+#URL
+	ID=108
+	NAME=ザ・ビジネスモール
+	URL=http://www.b-mall.ne.jp/index.aspx
+	UNIQUEID=F228F2F30BB5C642ADAFDBFDF11A5E16
+
+#URL
+	ID=109
+	NAME=Internet Archive: Wayback Machine
+	URL=http://www.archive.org/web/web.php
+	UNIQUEID=D0DF0BC77D5AB546A86087FB36F9A1A5
+
+#URL
+	ID=110
+	NAME=FOREIGN AFFAIRS JAPAN
+	URL=http://www.foreignaffairsj.co.jp/
+	UNIQUEID=5D94F20FF11973458F81C64A383189BA
+
+#URL
+	ID=111
+	NAME=経済産業省
+	URL=http://www.meti.go.jp/
+	UNIQUEID=2206D8FFCE1B944CB0AC77D01DC4F413
+
+#URL
+	ID=112
+	NAME=日本銀行 Bank of Japan
+	URL=http://www.boj.or.jp/
+	UNIQUEID=31AD47A2001E8E45A637F20F00985C5F
+
+-
+
+#FOLDER
+	ID=113
+	NAME=コンピューター・家電
+	UNIQUEID=C3A9D8018D6D4040ABC65F2A9DBE3D03
+
+#URL
+	ID=114
+	NAME=アップル
+	URL=http://www.apple.com/jp/
+	UNIQUEID=E13ADD2D7E0BDF48A2A59603823A1F9A
+
+#URL
+	ID=115
+	NAME=ソニーストア
+	URL=http://www.jp.sonystyle.com/
+	UNIQUEID=7CDC7133BEFD7348959DB9CEF30195FC
+
+#URL
+	ID=116
+	NAME=シャープ いい暮らしストア
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880235757
+	UNIQUEID=6B3FAE74DA6FC142A93DD9598620E4EC
+	PARTNERID=opera-electronicstore
+
+#URL
+	ID=117
+	NAME=121ware.com
+	URL=http://121ware.com/
+	UNIQUEID=ED4B578D5A0BB44CABBF0603C5235374
+
+#URL
+	ID=118
+	NAME=Dell Japan
+	URL=http://www.dell.co.jp/
+	UNIQUEID=EF0E3517EFB9FB43B837700C011E4965
+
+#URL
+	ID=119
+	NAME=Lenovo ストア
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165716
+	UNIQUEID=D4EBDBFD6FAE0A4183E9433F977BC7D5
+	PARTNERID=opera-electronicstore2
+	
+#URL
+	ID=120
+	NAME=Adobe - Adobe Store - Japan
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165769
+	UNIQUEID=3BE96C1BEBEACE428679F7A6AF10F442
+	PARTNERID=opera-softwarestore
+
+#URL
+	ID=121
+	NAME=ソースネクストeSHOP
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165787
+	UNIQUEID=838CEF24441D754790DD1AFB6B5D0D93
+	PARTNERID=opera-electronicstore3
+
+#URL
+	ID=122
+	NAME=ソフマップ.com
+	URL=http://www.sofmap.com/
+	DESCRIPTION=。
+	UNIQUEID=06835159A4940C498B7B20DEA9587B4A
+
+#URL
+	ID=123
+	NAME=秋葉館オンラインショップ
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165809
+	UNIQUEID=99CD88F7DF64B74D8B83F1560BFE7DB9
+	PARTNERID=opera-electronicstore4
+
+#URL
+	ID=124
+	NAME=ヨドバシ.com
+	URL=http://www.yodobashi.com/
+	UNIQUEID=1EACBE389E00EE4F91ED3D5A92FB7213
+
+#URL
+	ID=125
+	NAME=ケーズデンキオンラインショップ
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165814
+	UNIQUEID=6B362DE3E7E3F54EAC20F9CF500A69FE
+	PARTNERID=opera-electronicstore5
+
+#URL
+	ID=126
+	NAME=ヤマダ電機 YAMADA MALL
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165815
+	UNIQUEID=85A63440F0834D458342AE02D945FEA7
+	PARTNERID=opera-webshop7
+
+-
+
+#FOLDER
+	ID=127
+	NAME=ショッピング
+	UNIQUEID=40FC4DC715FD5F4D8F6AED4EEA3CF81A
+
+#URL
+	ID=128
+	NAME=Amazon.co.jp
+	URL=http://redir.opera.com/amazon/
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=4
+	UNIQUEID=3B88B591449F44718D68400B9BD076E1
+	PARTNERID=opera-webshop8
+
+#URL
+	ID=129
+	NAME=楽天市場
+	URL=http://pt.afl.rakuten.co.jp/c/0a5b732f.d379d233/?url=http%3a%2f%2fwww.rakuten.co.jp%2f
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=1
+	UNIQUEID=CCB02C8961D0403CB5FB72DE06C77102
+	PARTNERID=opera-webshop9
+
+#URL
+	ID=130
+	NAME=【Yahoo!ショッピング】豊富な品揃え！　探しやすい！
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165547
+	UNIQUEID=757BB6B68BA20A408965F38AD6538A18
+	PARTNERID=opera-webshop10
+
+#URL
+	ID=131
+	NAME=Yahoo!オークション
+	URL=http://redir.opera.com/valuecommerce/?id=1
+	ON PERSONALBAR=YES
+	PERSONALBAR_POS=2
+	UNIQUEID=B4EC35F85A8C4CB1BAB6834C3C2ECF1B
+	PARTNERID=opera-auction
+
+#URL
+	ID=132
+	NAME=livedoor デパート
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165559
+	UNIQUEID=11E3F47646ED0845979724FC5EF8D099
+	PARTNERID=opera-webshop11
+
+#URL
+	ID=133
+	NAME=セブンネットショッピング
+	URL=http://www.7netshopping.jp/all/
+	UNIQUEID=DEE9000928C93C4FB6F07729AC70066D
+
+#URL
+	ID=134
+	NAME=食品・日用品の通販なら【イオンショップ】
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165590
+	UNIQUEID=E607E7695E91F8478141D96E663F6E5C
+	PARTNERID=opera-webshop12
+
+#URL
+	ID=135
+	NAME=Google ショッピング
+	URL=http://www.google.co.jp/prdhp
+	UNIQUEID=937CA28DCD2D7541942A41E3699745E1
+
+#URL
+	ID=136
+	NAME=ポンパレ
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165598
+	UNIQUEID=52FA4C1A51F34A4C90F1755DFB4E3E2E
+	PARTNERID=opera-webshop13
+
+#URL
+	ID=137
+	NAME=グルーポン-GROUPON
+	URL=http://www.groupon.jp/
+	UNIQUEID=A0807ED49B87FC4CB57C9AACFA2F214C
+
+-
+
+#FOLDER
+	ID=138
+	NAME=CD・DVD・書籍
+	UNIQUEID=4AD923FAD1558C4097D13BE560DBB9D0
+
+#URL
+	ID=139
+	NAME=【TSUTAYA online】
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165198
+	UNIQUEID=E19C5B8EDA1F1E49ACE689A019983892
+	PARTNERID=opera-webshop14
+	
+#FOLDER
+	ID=140
+	NAME=ゲーム・エンターテイメント
+	UNIQUEID=2B8150B282E2FB41808784C72EE7E25F
+
+#URL
+	ID=141
+	NAME=ORICON STYLE
+	URL=http://www.oricon.co.jp/
+	UNIQUEID=37DD383A17902D4A8FD305262F4E55AC
+
+#URL
+	ID=142
+	NAME=インターネットTVガイド
+	URL=http://www.tvguide.or.jp/
+	UNIQUEID=1622496DE76A2F4C949444540E42023A
+
+#URL
+	ID=143
+	NAME=チケットぴあ
+	URL=http://t.pia.co.jp/
+	UNIQUEID=51BAAF7E0262764BBF77780AAD77A59F
+
+#URL
+	ID=144
+	NAME=ローチケ.com
+	URL=http://l-tike.com/
+	UNIQUEID=36A283D2843CFE4E9276CEBF60DDF7DF
+
+#URL
+	ID=145
+	NAME=ファミ通.com
+	URL=http://www.famitsu.com/
+	UNIQUEID=609F8967F530A144B2016B70E66DA2F3
+
+#URL
+	ID=146
+	NAME=Yahoo!モバゲー
+	URL=http://yahoo-mbga.jp/
+	UNIQUEID=36176E05DF5D8844A776DE7A2DED34E9
+
+#URL
+	ID=147
+	NAME=ハンゲーム
+	URL=http://www.hangame.co.jp/
+	UNIQUEID=7E0D3A77BB8FD849839E5A18CE942C1E
+
+#URL
+	ID=148
+	NAME=KONAMI STYLE
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165457
+	UNIQUEID=B8262ACC52F5DD49BD9DDDFE0A68C21B
+	PARTNERID=opera-webshop15
+
+#URL
+	ID=149
+	NAME=SQUARE ENIX
+	URL=http://www.square-enix.com/jp/
+	UNIQUEID=A2084915CC13264B9CC85C96A6788BAA
+
+-
+
+#URL
+	ID=150
+	NAME=TOWER RECORDS ONLINE
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165205
+	UNIQUEID=70A3F79233A1A849B7CD609289D1F260
+	PARTNERID=opera-music
+
+#URL
+	ID=151
+	NAME=HMV ONLINE
+	URL=http://www.hmv.co.jp/
+	UNIQUEID=3BC0EA7034C96E47B047B2A2FEAEB1C0
+
+#URL
+	ID=152
+	NAME=電子書店パピレス
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165219
+	UNIQUEID=8325569B6753C74CBB550882B067C6CC
+	PARTNERID=opera-webshop16
+
+#URL
+	ID=153
+	NAME=eBookJapan (電子書籍・コミック)
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165207
+	UNIQUEID=8AD79449A51BDA47B81FB3969DA25EB3
+	PARTNERID=opera-webshop17
+
+#URL
+	ID=154
+	NAME=紀伊國屋書店　ＢｏｏｋＷｅｂ
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880165224
+	UNIQUEID=74773A40B97D6E48B2AA3F50D4BA41E6
+	PARTNERID=opera-webshop18
+
+#URL
+	ID=155
+	NAME=楽天ブックス
+	URL=http://pt.afl.rakuten.co.jp/c/0a5b732f.d379d233/?url=http%3a%2f%2fbooks.rakuten.co.jp%2f
+	UNIQUEID=A864216CF670EA428988464C7E7CC3B0
+	PARTNERID=opera-webshop19
+	
+#URL
+	ID=156
+	NAME=DMM.com オンラインDVDレンタル
+	URL=http://www.dmm.com/rental/
+	UNIQUEID=9B25F3CC9E336E4E97C42C754C8E4439
+	PARTNERID=opera-movies
+
+#URL
+	ID=157
+	NAME=DVDレンタル ぽすれん
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166714
+	UNIQUEID=4776BC9C26E25645AB9DEBD9DD21463E
+	PARTNERID=opera-movies2
+
+#URL
+	ID=158
+	NAME=eBookOFF
+	URL=http://ck.jp.ap.valuecommerce.com/servlet/referral?sid=2041063&pid=880166716
+	UNIQUEID=5994A2E42C974947BFB4022E04421FD3
+
+-
+
+#FOLDER
+	ID=159
+	NAME=ごみ箱
+	TRASH FOLDER=YES
+	DELETABLE=NO
+	UNIQUEID=B28DF07867664F98BCFA4AD745BD69F3

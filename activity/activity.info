@@ -1,0 +1,7 @@
+[Activity]
+name = OperaJAM
+service_name = org.ceibaljam.OperaJAM
+icon = opera
+activity_version = 1
+show_launcher = yes
+class = OperaActivity.OperaActivity

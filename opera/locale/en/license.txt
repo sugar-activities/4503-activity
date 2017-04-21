@@ -1,0 +1,7 @@
+Presiona Enter para Continuar.
+
+Ahora puedes navegar super rápido en Internet desde tu xo utilizando Opera.
+Este paquete es un primer intento de llevar Opera a Sugar, todavía le faltan muchos detalles.
+Se acepta ayuda, sugerencias y demás:
+Flavio Danesse <fdanesse@gmail.com>
+CeibalJAM! Uruguay
